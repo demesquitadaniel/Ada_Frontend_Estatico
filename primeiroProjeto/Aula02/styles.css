@@ -1,0 +1,41 @@
+html {
+    display: block;
+    margin: 0 auto;
+    width: 810px;
+    font-size: 12px;
+    background-image: url("https://assets1.ignimgs.com/thumbs/userUploaded/2019/5/29/dndmobilebr-1559158864269.jpg");
+    background-color: #c20000; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+  
+table {
+    background-image: linear-gradient( #c4baff,#ffb4b4);
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #c20000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    box-shadow: 3px 3px 3px black;
+}
+
+thead {
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+td {
+    padding: 8px 12px 8px 12px;
+}
+
+.alignment {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 14px;
+}
+
+.bg_white {
+    background-color: white;
+}
