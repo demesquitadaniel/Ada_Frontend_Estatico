@@ -36,13 +36,27 @@ body {
 
 h1 {
     padding-top: 60px;
+    color:royalblue;
+    text-shadow: 1px 1px 2px;
+}
+
+.post-theme {
+    color: blue;
+}
+
+.post-title {
+    padding-left: 80px;
+}
+
+.post-description {
+    padding-left: 160px;
 }
 
 section {
-    border: blue solid 1px;
-    border-radius: 15px;
-    margin: 80px;
-    padding: 30px;
+    border: lightblue solid 1px;
+    border-radius: 8px;
+    margin: 60px;
+    padding: 20px;
 }
 
 footer {
