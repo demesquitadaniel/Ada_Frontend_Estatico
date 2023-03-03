@@ -4,17 +4,20 @@ body {
     background-color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: auto;
+    height: 94%;
 }
 
 .menu {
-    color: rgb(0, 0, 0);
+    color: white;
     text-align: center;
     overflow: hidden;
-    background-color: #eef3fc;
+    background-color: #0059ff;
     position: fixed;
     text-decoration: none;
     top: 0;
+    height: 6%;
     width: 100%;
+    z-index: 1;
 }
 
 .menu a {
@@ -26,12 +29,11 @@ body {
 }
 
 .menu a:hover {
-    color: blue;
     text-shadow: 1px 1px 1px;
 }
 
 .menu a:visited {
-    color: rgb(0, 0, 0);
+    color: white;
 }
 
 h1 {
