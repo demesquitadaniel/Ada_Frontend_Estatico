@@ -4,7 +4,7 @@ body {
     background-color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: auto;
-    height: 94%;
+    bottom: 0;
 }
 
 .menu {
@@ -15,21 +15,21 @@ body {
     position: fixed;
     text-decoration: none;
     top: 0;
-    height: 6%;
     width: 100%;
     z-index: 1;
 }
 
 .menu a {
+    color: white;
     float: none;
     display: inline-block;
     padding: 20px 20px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .menu a:hover {
-    text-shadow: 1px 1px 1px;
+    background-color: #347bff;
 }
 
 .menu a:visited {
@@ -37,8 +37,10 @@ body {
 }
 
 h1 {
-    padding-top: 60px;
+    padding-top: 260px;
+    padding-bottom: 218px;
     color:royalblue;
+    font-size: 7rem;
     text-shadow: 1px 1px 2px;
 }
 
@@ -59,6 +61,7 @@ section {
     border-radius: 8px;
     margin: 60px;
     padding: 20px;
+    background-color: #f7feff;
 }
 
 footer {
